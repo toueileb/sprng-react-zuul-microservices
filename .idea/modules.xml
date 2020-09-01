@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/admissions-service-ms/admissions-service-ms.iml" filepath="$PROJECT_DIR$/admissions-service-ms/admissions-service-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hr-service-ms/hr-service-ms.iml" filepath="$PROJECT_DIR$/hr-service-ms/hr-service-ms.iml" />
       <module fileurl="file://$PROJECT_DIR$/pathology-service-ms/pathology-service-ms.iml" filepath="$PROJECT_DIR$/pathology-service-ms/pathology-service-ms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-microservices.iml" filepath="$PROJECT_DIR$/.idea/spring-microservices.iml" />

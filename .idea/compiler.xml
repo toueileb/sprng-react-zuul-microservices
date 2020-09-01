@@ -9,10 +9,12 @@
         <module name="hr-service-ms" />
         <module name="admissions-service-ms" />
         <module name="pathology-service-ms" />
+        <module name="discovery-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="admissions-service-ms" target="1.8" />
+      <module name="discovery-server" target="1.8" />
       <module name="hr-service-ms" target="1.8" />
       <module name="pathology-service-ms" target="1.8" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="admissions-service-ms" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
       <module name="hr-service-ms" options="-parameters" />
       <module name="pathology-service-ms" options="-parameters" />
     </option>
