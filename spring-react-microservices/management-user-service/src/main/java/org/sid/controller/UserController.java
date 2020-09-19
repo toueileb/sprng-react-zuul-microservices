@@ -7,6 +7,7 @@ import org.sid.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -21,6 +22,14 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private Environment environment;
+
+    @GetMapping("/service/port")
+    public String getPort(){
+        return "Service Worling on " + environment.getProperty("local.server.port");
+    }
 
     @PostMapping("/service/registration")
     public ResponseEntity<?> register(@RequestBody User user){
